@@ -6,3 +6,24 @@ function manipulate(){
     }
 
 }
+//04
+function stringArray(strArray){
+    for (let i=0;i <strArray.length; i++){
+
+        console.log(strArray[i]);
+    }
+}
+
+//5
+function reverseString(word){
+let reverse = true;
+
+while (reverse){
+
+console.log(word.split("").reverse().join(""));
+
+break;
+
+    }
+}
+reverseString("loice")
